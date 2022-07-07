@@ -1,0 +1,10 @@
+/*返回带头结点的线性表L*/
+List L()
+{
+    List ptr;
+
+    ptr=(List)malloc(sizeof(struct LNode));
+    ptr->Next=NULL;
+
+    return ptr;
+}
